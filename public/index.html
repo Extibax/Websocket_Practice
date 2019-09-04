@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="main.css" />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Chat Socket.io</title>
+  </head>
+  <body>
+    <div id="chat_container">
+      <h1>Extibax World</h1>
+      <div id="chat_window">
+        <div id="output_container"></div>
+        <div id="actions"></div>
+      </div>
+      <input type="text" id="username" placeholder="Username" />
+      <input type="text" id="message" placeholder="Message" />
+      <button id="button">
+        Send
+      </button>
+    </div>
+
+    <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+    <script src="chat.js"></script>
+  </body>
+</html>
