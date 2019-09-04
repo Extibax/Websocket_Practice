@@ -1,0 +1,20 @@
+{
+  "name": "Websocket_Practice",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "repository": "https://github.com/Extibax/Websocket_Practice",
+  "author": "<extibax@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "dev": "nodemon --exec babel-node src/index.js",
+    "build": "babel src -d build",
+    "test_build": "node build/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  }
+}
